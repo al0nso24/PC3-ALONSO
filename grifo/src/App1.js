@@ -97,8 +97,8 @@ function App1(){
                         <tbody>
                             {listarbusquedaGas.map((ga, index)=>(
                                 <tr key={index}>
-                                    <td>{ga.nombre}</td>
                                     <td>{ga.hora}</td>
+                                    <td>{ga.nombre}</td>
                                     <td>{ga.importe}</td>
                                 </tr>
                             ))}
